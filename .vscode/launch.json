@@ -324,6 +324,14 @@
             "console": "externalTerminal",
             "mainClass": "edu.sbcc.cs105.Program",
             "projectName": "CS105-Session07-Ex-WhileLoop"
+        },
+        {
+            "type": "java",
+            "name": "CS105-ICE-09",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": "edu.sbcc.cs105.Program",
+            "projectName": "ICE-09"
         }
     ]
 }
