@@ -3,8 +3,8 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.sbcc.cs105</groupId>
-  <artifactId>ICE-09</artifactId>
-  <name>ICE-09</name>    
+  <artifactId>ICE-10</artifactId>
+  <name>ICE-10</name>    
   <version>1.0</version>
   <packaging>jar</packaging>
   

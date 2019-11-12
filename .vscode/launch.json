@@ -327,11 +327,11 @@
         },
         {
             "type": "java",
-            "name": "CS105-ICE-09",
+            "name": "CS105-ICE-010",
             "request": "launch",
             "console": "externalTerminal",
             "mainClass": "edu.sbcc.cs105.Program",
-            "projectName": "ICE-09"
+            "projectName": "ICE-10"
         }
     ]
 }
