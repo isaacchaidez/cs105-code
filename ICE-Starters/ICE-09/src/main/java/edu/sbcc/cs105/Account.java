@@ -1,12 +1,12 @@
-package main.java.edu.sbcc.cs105;
+package edu.sbcc.cs105;
 
 /**
  * Account
  */
 public class Account {
 
-    String accountNumber;
-    double balance;
+    private String accountNumber;
+    private double balance;
     
     public Account(String accountNumber, double initialBalance) {
         this.accountNumber = accountNumber;
@@ -29,6 +29,14 @@ public class Account {
         if (balance - amount < 0){
             throw new Exception("Balance cannot be less than zero");
         }
+    }
+
+    public double getBalance(){
+        return balance;
+    }
+
+    public String getAccountNumber(){
+        return accountNumber;
     }
 
 

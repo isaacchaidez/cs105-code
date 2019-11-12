@@ -9,6 +9,7 @@ public class Program {
 	 	String delimString = "ABCD";
 		Scanner s = new Scanner(delimString);
 		s.useDelimiter("");
+		s.close();
 
 		System.out.println(s.next());
 		System.out.println(s.next());
