@@ -2,7 +2,7 @@ package edu.sbcc.cs105;
 
 public abstract class Animal {
 	
-	String name;
+	private String name;
 	
 	public Animal(String name) {
 		this.name = name;

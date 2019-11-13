@@ -16,21 +16,27 @@ public class Account {
     public void credit(double amount) throws Exception
     {
 
+
+        System.out.println("In Account");
+
         if (amount < .01){
             throw new Exception("Credit amount must be at least $0.01");
         }
+
         balance += amount;
     }
 
     public void debit(double amount) throws Exception {
+
+        System.out.println("In Account");
+        
         if (amount > -.01){
-            throw new Exception("Credit amount must be at least $0.01");
+            throw new Exception("Debit amount must be at least $0.01");
         }
 
         if (balance - amount < 0){
             throw new Exception("Balance cannot be less than zero");
         }
-
         balance -= amount;
     }
 

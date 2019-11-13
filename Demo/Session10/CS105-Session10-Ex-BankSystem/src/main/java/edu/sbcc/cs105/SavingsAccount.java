@@ -4,6 +4,9 @@ public class SavingsAccount extends Account {
 
 	private double interestRate;
 	
+	public SavingsAccount(double balance) {
+		super(balance);
+	}
 	public double getInterestRate() {
 	  return interestRate;
 	}
