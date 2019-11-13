@@ -324,6 +324,33 @@
             "console": "externalTerminal",
             "mainClass": "edu.sbcc.cs105.Program",
             "projectName": "CS105-Session07-Ex-WhileLoop"
+        },
+        {
+            "type": "java",
+            "name": "CS105-Session08-Ex-FileImporter",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": "edu.sbcc.cs105.Program",
+            "projectName": "CS105-Session08-Ex-FileImporter",
+            "stopOnEntry": "false"
+        },
+        {
+            "type": "java",
+            "name": "CS105-Session08-Ex-Authenticate",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": "edu.sbcc.cs105.Program",
+            "projectName": "CS105-Session08-Ex-Authenticate",
+            "stopOnEntry": "false"
+        },
+        {
+            "type": "java",
+            "name": "CS105-Session08-Ex-NestedForLoop",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": "edu.sbcc.cs105.Program",
+            "projectName": "CS105-Session08-Ex-NestedForLoop",
+            "stopOnEntry": "false"
         }
     ]
 }

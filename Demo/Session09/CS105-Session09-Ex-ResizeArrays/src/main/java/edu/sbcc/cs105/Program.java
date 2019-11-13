@@ -12,11 +12,12 @@ public class Program {
 		resizeArrayListEx1();
 	}
 
-	static void resizeArray() {
+	static void resizeArrayList() {
 
 		int upper = 10;
 		int[] myInts = new int[upper];
-		for (int i = 0; i < (new Random()).nextInt(200); i++) {
+		int randomSize = (new Random()).nextInt(200);
+		for (int i = 0; i < randomSize; i++) {
 
 			
 			System.out.println(i);
@@ -28,6 +29,8 @@ public class Program {
 				myInts[i] = i;
 			}
 		}
+
+		System.out.printf("Final size of the array was %d", upper);
 
 	}
 

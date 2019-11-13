@@ -1,18 +1,13 @@
 package edu.sbcc.cs105;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
-import java.util.Random;
 import java.lang.reflect.Field;
 
 public class Program {
 
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
-		
-		
+				
 		//String[] items = "1,2,3,4,5".split(",");
 		
 		int[][] grades = { 

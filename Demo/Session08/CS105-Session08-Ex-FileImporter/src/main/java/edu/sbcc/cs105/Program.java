@@ -9,17 +9,31 @@ public class Program {
 
 	public static void main(String[] args) throws FileNotFoundException  {
 
+		
 		StudentFileImporter fileImporter 
 			= new StudentFileImporter();
-		
-		try {
-			fileImporter.load(".\\StudentDataFile.txt");
+			try {
+
+			/*
+			Path filePath = Paths.get(
+				".\\StudentDataFile.txt");
+			String fullPath = filePath.toAbsolutePath().toString();
+			String fullPath =
+				".\\StudentDataFile.txt";
+
+*/
+			String fullPath =
+				".\\Demo\\Session08\\CS105-Session08-Ex-FileImporter\\StudentDataFile.txt";
+						
+			fileImporter.load(fullPath);
+
+
 		} catch (FileNotFoundException | ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
-		PrintWriter w = new PrintWriter(".\\data.txt");
+		PrintWriter w = new PrintWriter("c:\\temp\\data.txt");
 
 		ArrayList<Student> students = fileImporter.getStudents();
 		for(Student s : students){
@@ -30,6 +44,7 @@ public class Program {
 		}
 		w.close();
 
+		System.out.println("Done!");
 	}
 
 }
