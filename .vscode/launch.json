@@ -351,6 +351,15 @@
             "mainClass": "edu.sbcc.cs105.Program",
             "projectName": "CS105-Session08-Ex-NestedForLoop",
             "stopOnEntry": "false"
+        },
+        {
+            "type": "java",
+            "name": "CS105-ICE-010",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": "edu.sbcc.cs105.Program",
+            "projectName": "ICE-10"
+
         }
     ]
 }

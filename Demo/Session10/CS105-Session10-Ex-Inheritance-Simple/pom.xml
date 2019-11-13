@@ -5,8 +5,7 @@
   <groupId>edu.sbcc.cs105</groupId>
   <version>1.0</version>
   <packaging>jar</packaging>
-  <name>CS105-Session09-Ex-ArraySort</name>
-  <artifactId>CS105-Session09-Ex-ArraySort</artifactId>
+  <name>CS105-Session10-Ex-Inheritance-Simple</name>
   <dependencies>
 	<dependency>
 		<!--
@@ -24,5 +23,5 @@
 	<maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
-  
+  <artifactId>CS105-Session10-Ex-Inheritance-Simple</artifactId>
 </project>
