@@ -69,7 +69,7 @@ public class Program {
 		//Print by student then course offering
 		System.out.println("Enrollments by Student and then Course Offering");
 		for(Student s : students) {
-			
+						
 			System.out.println(s.getName());
 			for (CourseOffering o : s.getEnrollments()) {
 				

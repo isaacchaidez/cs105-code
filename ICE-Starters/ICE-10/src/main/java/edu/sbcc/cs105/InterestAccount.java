@@ -1,4 +1,4 @@
-package main.java.edu.sbcc.cs105;
+package edu.sbcc.cs105;
 
 /**
  * InterestAccount

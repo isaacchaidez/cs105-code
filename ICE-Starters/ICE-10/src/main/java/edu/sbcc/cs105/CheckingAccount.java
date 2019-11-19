@@ -1,4 +1,4 @@
-package main.java.edu.sbcc;
+package edu.sbcc.cs105;
 
 /**
  * CheckingAccount
