@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Program",
+            "request": "launch",
+            "mainClass": "edu.sbcc.cs105.Program",
+            "projectName": "CS105-Session10-Ex-Inheritance-Simple"
+        }
+    ]
+}
