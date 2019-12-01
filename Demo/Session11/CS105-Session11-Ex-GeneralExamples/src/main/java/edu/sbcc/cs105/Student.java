@@ -5,11 +5,11 @@ public class Student {
 	private String firstName;
 	private String middleName;
 	private String lastName;
-	private Logger logger;
+	//private Logger logger;
 	
-	public Student(String firstName, String middleName, String lastName, Logger logger){
+	public Student(String firstName, String middleName, String lastName){
 		
-		this.logger = logger;
+		//this.logger = logger;
 		
 		setFirstName(firstName);
 		setMiddleName(middleName);
@@ -23,7 +23,7 @@ public class Student {
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 		
-		this.logger.Log(LogLevel.INFO, "Changed first name");
+		//this.logger.Log(LogLevel.INFO, "Changed first name");
 	}
 	public String getMiddleName() {
 		return middleName;

@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "CS105ProjectTemplate",
+                "projectName": "CS105ProjectTemplate",
+                "workingDirectory": "d:\\CS105ProjectTemplate",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "CS105ProjectTemplate",
+                "projectName": "CS105ProjectTemplate",
+                "workingDirectory": "d:\\CS105ProjectTemplate",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
