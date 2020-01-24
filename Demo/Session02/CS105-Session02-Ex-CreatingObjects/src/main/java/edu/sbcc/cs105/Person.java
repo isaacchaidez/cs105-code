@@ -20,10 +20,15 @@ public class Person {
 		
 		firstName = "Uninitialized";
 		lastName = "Uninitialized";
-		numberOfPeople++;
-		
+		numberOfPeople++;		
 	}	
 	
+	public Person(String first, String last){
+		
+		firstName = first;
+		lastName = last;
+		numberOfPeople++;		
+	}	
 	
 	/**
 	 * @return the firstName
@@ -44,8 +49,11 @@ public class Person {
 	public String getLastName() {
 		return lastName;
 	}
+	
 	/**
-	 * @param lastName the lastName to set
+	 * Allows you to set the person's last name
+	 * 
+	 * @param lastName The last name of the person
 	 */
 	public void setLastName(String lastName) {
 		this.lastName = lastName;

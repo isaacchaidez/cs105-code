@@ -16,6 +16,8 @@ public class Program {
 
 		// Construct a new person
 		Person someOne = new Person();
+		
+
 		System.out.println("Name of new person? " + someOne.getPrintName());
 
 		// Print out number of people - This is equivalent to putting it a variable and passing the variable - substitution
@@ -37,6 +39,8 @@ public class Program {
 		// Method is static because main is static. It means we don't need an instanc of a class
 		printMailName(someOne);
 		
+		Person p2 = new Person("Jane", "Gaucho");
+		printMailName(p2);
 	}
 	
 	/**
@@ -45,7 +49,7 @@ public class Program {
 	 */
 	
 	public static void printMailName(Person person){
-		System.out.println("I don't do anything useful yet");
+		System.out.println(person.getFirstName() + " " + person.getLastName());
 	}
 
 }
