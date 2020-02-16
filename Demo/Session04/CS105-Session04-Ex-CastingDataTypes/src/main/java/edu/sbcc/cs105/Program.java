@@ -13,7 +13,7 @@ public class Program {
 
 		a = (byte)c;
 		System.out.printf("The value of converting byte %d to an int is %d%n",c, a);
-		
+	
 		
 		float d = 42f;
 		double e = 1.0;

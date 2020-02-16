@@ -14,11 +14,14 @@ public class Person {
 	}
 	
 	public void setFirstName(String firstName){
-	  this.firstName = firstName;
-	  
+	  this.firstName = firstName;	  
 	}
 	
 	public void setLastName(String lastName){
 	   this.lastName = lastName;
+	}
+
+	public String getPrintName(){
+		return this.firstName + " " + getLastName();
 	}
 }

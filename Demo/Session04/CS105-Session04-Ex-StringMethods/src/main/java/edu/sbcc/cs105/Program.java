@@ -30,6 +30,12 @@ public class Program {
 		String secondWord = dataString.substring(indexOfSpace1 + 1, indexOfSpace2);
 		System.out.println(secondWord);
 
+		int length = secondWord.length();
+		System.out.printf("The second word is %d characters long", length);
+
+		int indexOfJ = dataString.lastIndexOf('e');
+		System.out.printf("The last e occurs at index: %d", indexOfJ);
+
 	}
 
 }

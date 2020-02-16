@@ -10,10 +10,12 @@ public class Program {
 	 */
 	public static void main(String[] args) {
 	
+		int y = 'A';
+
 		//Uncomment / Comment out example calls
 		//DoEx1();
-		DoEx2();
-		//DoEx3();
+		//DoEx2();
+		DoEx3();
 		
 	}
 
@@ -21,13 +23,20 @@ public class Program {
 		// Ex1 - Read in using next<type>
 		Scanner s = new Scanner(System.in);
 
+		/*
+		System.out.println("Enter an integer");
 		int i = s.nextInt();
 
+		System.out.println("Enter an double");
 		double f = s.nextDouble();
+		*/
+
+		System.out.println("Enter anything you want");
 		String str = s.nextLine();
 
-		System.out.printf("int: %d; double: %f, string:%s", i, f, str);
+		//System.out.printf("int: %d; double: %f, string:%s", i, f, str);
 
+		System.out.printf("You entered the value '%s', %d%n", str, 42);
 		s.close();
 
 	}
@@ -50,7 +59,8 @@ public class Program {
 		
 		  int f = 42; float g = 15.771113f;
 		  
-		  System.out.printf("%4d%n", f); System.out.printf("%.2f", g, g);
+		  System.out.printf("%4d%n", f); 
+		  System.out.printf("%.2f%n", g);
 		 
 	}
 
